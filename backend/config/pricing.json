@@ -1,0 +1,154 @@
+{
+  "text": {
+    "Tog5.4": {
+      "display_name": "gpt-5.4",
+      "input": 18.75,
+      "cacheinput": 1.88,
+      "output": 112.5
+    },
+    "Tog5.4_272": {
+      "display_name": "gpt-5.4",
+      "input": 37.5,
+      "cacheinput": 3.75,
+      "output": 168.75
+    },
+    "Tog5.5": {
+      "display_name": "gpt-5.5",
+      "input": 37.5,
+      "cacheinput": 3.75,
+      "output": 225
+    },
+    "Tog5.5_272": {
+      "display_name": "gpt-5.5",
+      "input": 75,
+      "cacheinput": 7.5,
+      "output": 337.5
+    },
+    "Tog5.2": {
+      "input": 12.25,
+      "cacheinput": 1.22,
+      "output": 98,
+      "display_name": "gpt-5.2"
+    },
+    "Tog5.1": {
+      "input": 8.75,
+      "cacheinput": 0.87,
+      "output": 70,
+      "display_name": "gpt-5.1"
+    },
+    "Tog5": {
+      "input": 9.37,
+      "cacheinput": 0.93,
+      "output": 75,
+      "display_name": "gpt-5"
+    },
+    "Tog41": {
+      "input": 15,
+      "cacheinput": 3.75,
+      "output": 60,
+      "display_name": "gpt-4.1"
+    },
+    "Tog5chatlatest": {
+      "input": 9.37,
+      "cacheinput": 0.93,
+      "output": 75,
+      "display_name": "gpt-5-chat"
+    },
+    "Tog5nano": {
+      "input": 0.37,
+      "cacheinput": 0.03,
+      "output": 3,
+      "display_name": "gpt-5-nano"
+    },
+    "Tog4o": {
+      "input": 18.75,
+      "cacheinput": 9.37,
+      "output": 75,
+      "display_name": "gpt-4o"
+    },
+    "Tgg3.1pro": {
+      "input": 15,
+      "cacheinput": 1.5,
+      "output": 90,
+      "display_name": "gemini-3.1-pro-preview"
+    },
+    "Tgg3.1pro200": {
+      "input": 30,
+      "cacheinput": 3,
+      "output": 135,
+      "display_name": "gemini-3.1-pro-preview"
+    },
+    "Tgg3.1flashlite": {
+      "input": 1.87,
+      "cacheinput": 0.18,
+      "output": 11.25,
+      "display_name": "gemini-3.1-flash-lite-preview"
+    },
+    "Tgg3.0flash": {
+      "input": 3.5,
+      "cacheinput": 0.35,
+      "output": 21,
+      "display_name": "gemini-3-flash-preview"
+    },
+    "Tgg2.5pro": {
+      "input": 9.37,
+      "cacheinput": 0.93,
+      "output": 75,
+      "display_name": "gemini-2.5-pro"
+    },
+    "Tgg2.5pro200": {
+      "input": 18.75,
+      "cacheinput": 1.87,
+      "output": 112.5,
+      "display_name": "gemini-2.5-pro"
+    },
+    "Tgg2.5flash": {
+      "input": 2.25,
+      "cacheinput": 0.22,
+      "output": 18.75,
+      "display_name": "gemini-2.5-flash"
+    }
+  },
+  "image": {
+    "Gem3.1_05K": {
+      "price": 0.333,
+      "unit": "元/张",
+      "display_name": "gemini-3.1 生图(0.5K)"
+    },
+    "Gem3.1_1K": {
+      "price": 0.5,
+      "unit": "元/张",
+      "display_name": "gemini-3.1 生图(1K)"
+    },
+    "Gem3.1_2K": {
+      "price": 0.75,
+      "unit": "元/张",
+      "display_name": "gemini-3.1 生图(2K)"
+    },
+    "Gem3.1_4K": {
+      "price": 1.12,
+      "unit": "元/张",
+      "display_name": "gemini-3.1 生图(4K)"
+    },
+    "Gem3.0_1K": {
+      "price": 1,
+      "unit": "元/张",
+      "display_name": "gemini-3.0 生图(1K)"
+    },
+    "Gem3.0_2K": {
+      "price": 1,
+      "unit": "元/张",
+      "display_name": "gemini-3.0 生图(2K)"
+    },
+    "Gem3.0_4K": {
+      "price": 1.8,
+      "unit": "元/张",
+      "display_name": "gemini-3.0 生图(4K)"
+    },
+    "Gem2.5": {
+      "price": 0.3,
+      "unit": "元/张",
+      "display_name": "gemini-2.5 生图"
+    }
+  }
+}

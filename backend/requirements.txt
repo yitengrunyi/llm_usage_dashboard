@@ -1,0 +1,19 @@
+fastapi==0.115.0
+uvicorn==0.30.0
+requests==2.32.0
+python-dotenv==1.0.1
+playwright>=1.40.0,<1.50
+sqlalchemy>=2.0
+asyncpg
+pydantic>=2.0
+pydantic-settings
+alembic
+httpx
+psycopg2-binary
+ucloud-sdk-python3
+APScheduler>=3.10
+pyjwt>=2.8
+
+# 积分功能相关依赖
+aiomysql>=0.2.0        # 异步 MySQL 驱动，用于积分查询 v3 版本的并发查询
+PyMySQL>=1.0.0         # 同步 MySQL 驱动，用于 SQLAlchemy 的 mysql+pymysql:// 连接

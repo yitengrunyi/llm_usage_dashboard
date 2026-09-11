@@ -1,0 +1,7075 @@
+[
+  {
+    "model_name": "azure-gpt-4.1",
+    "model_group": "azure-gpt-4.1",
+    "provider": "azure",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-4-1"
+  },
+  {
+    "model_name": "blueshirt-claude-opus-4.6",
+    "model_group": "blueshirt-claude-opus-4.6",
+    "provider": "blueshirt",
+    "model_family": "anthropic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 5
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 10
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 37.5
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.5
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1
+        }
+      ],
+      "cache_write_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 6.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 12.5
+        }
+      ]
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: claude-opus-4-6"
+  },
+  {
+    "model_name": "blueshirt-gemini-2.5-flash",
+    "model_group": "blueshirt-gemini-2.5-flash",
+    "provider": "blueshirt",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cache_read_per_1m": 0.03
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-2-5-flash"
+  },
+  {
+    "model_name": "blueshirt-gemini-2.5-pro",
+    "model_group": "blueshirt-gemini-2.5-pro",
+    "provider": "blueshirt",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 1.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.5
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 15
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-2-5-pro"
+  },
+  {
+    "model_name": "blueshirt-gemini-2.5-pro-preview-03-25",
+    "model_group": "blueshirt-gemini-2.5-pro-preview-03-25",
+    "provider": "blueshirt",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-2-5-pro-preview-03-25"
+  },
+  {
+    "model_name": "blueshirt-gemini-2.5-pro-preview-05-06",
+    "model_group": "blueshirt-gemini-2.5-pro-preview-05-06",
+    "provider": "blueshirt",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-2-5-pro-preview-05-06"
+  },
+  {
+    "model_name": "blueshirt-gemini-2.5-pro-preview-06-05",
+    "model_group": "blueshirt-gemini-2.5-pro-preview-06-05",
+    "provider": "blueshirt",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-2-5-pro-preview-06-05"
+  },
+  {
+    "model_name": "blueshirt-gemini-3-pro-image-preview",
+    "model_group": "blueshirt-gemini-3-pro-image-preview",
+    "provider": "blueshirt",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 2,
+      "output_per_1m": 12
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-3-pro-image-preview"
+  },
+  {
+    "model_name": "blueshirt-gemini-3-pro-preview",
+    "model_group": "blueshirt-gemini-3-pro-preview",
+    "provider": "blueshirt",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 12
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 18
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-3-pro-preview"
+  },
+  {
+    "model_name": "blueshirt-gemini-3-pro-preview-thinking",
+    "model_group": "blueshirt-gemini-3-pro-preview-thinking",
+    "provider": "blueshirt",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 12
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 18
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-3-pro-preview-thinking"
+  },
+  {
+    "model_name": "blueshirt-grok-4",
+    "model_group": "blueshirt-grok-4",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.2,
+      "output_per_1m": 0.5,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: grok-4"
+  },
+  {
+    "model_name": "claude-haiku-4-5",
+    "model_group": "claude-haiku-4-5",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1,
+      "output_per_1m": 5,
+      "cache_read_per_1m": 0.1,
+      "cache_write_per_1m": 1.25
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "claude-opus-4-6",
+    "model_group": "claude-opus-4-6",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 5
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 10
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 37.5
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.5
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1
+        }
+      ],
+      "cache_write_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 6.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 12.5
+        }
+      ]
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "claude-sonnet-4",
+    "model_group": "claude-sonnet-4",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 3,
+      "output_per_1m": 15,
+      "cache_read_per_1m": 0.3,
+      "cache_write_per_1m": 3.75
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "claude-sonnet-4-5",
+    "model_group": "claude-sonnet-4-5",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 3,
+      "output_per_1m": 15,
+      "cache_read_per_1m": 0.3,
+      "cache_write_per_1m": 3.75
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "claude-sonnet-4-5",
+    "model_group": "claude-sonnet-4-5",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 3,
+      "output_per_1m": 15,
+      "cache_read_per_1m": 0.3,
+      "cache_write_per_1m": 3.75
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "claude-sonnet-4-5-20250929",
+    "model_group": "claude-sonnet-4-5-20250929",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 3,
+      "output_per_1m": 15,
+      "cache_read_per_1m": 0.3,
+      "cache_write_per_1m": 3.75
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-chat",
+    "model_group": "deepseek-chat",
+    "provider": "deepseek",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 2.0,
+      "output_per_1m": 3.0,
+      "cache_read_per_1m": 0.2
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-chat",
+    "model_group": "deepseek-chat",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 2.0,
+      "output_per_1m": 3.0,
+      "cache_read_per_1m": 0.2
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-r1",
+    "model_group": "volcengine-deepseek-r1",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 16.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-r1",
+    "model_group": "deepseek-r1",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 16.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-r1-32b",
+    "model_group": "volcengine-deepseek-r1-32b",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 16.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-r1-32b",
+    "model_group": "deepseek-r1-32b",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 16.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-reasoner",
+    "model_group": "deepseek-reasoner",
+    "provider": "deepseek",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 2.0,
+      "output_per_1m": 3.0,
+      "cache_read_per_1m": 0.2
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-reasoner",
+    "model_group": "deepseek-reasoner",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 2.0,
+      "output_per_1m": 3.0,
+      "cache_read_per_1m": 0.2
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3",
+    "model_group": "deepseek-v3",
+    "provider": "deepseek",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.4
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3",
+    "model_group": "volcengine-deepseek-v3",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.4
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3",
+    "model_group": "deepseek-v3",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.4
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3.1",
+    "model_group": "deepseek-v3.1",
+    "provider": "deepseek",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 12.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3.1",
+    "model_group": "volcengine-deepseek-v3.1",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 12.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3.1",
+    "model_group": "deepseek-v3.1",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 12.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3-1-250821",
+    "model_group": "deepseek-v3-1-250821",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 12.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3.1-thinking",
+    "model_group": "volcengine-deepseek-v3.1-thinking",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 12.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3.1-thinking",
+    "model_group": "deepseek-v3.1-thinking",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 12.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3.2",
+    "model_group": "volcengine-deepseek-v3.2",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.4
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3.2",
+    "model_group": "deepseek-v3.2",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.4
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3-2-251201",
+    "model_group": "deepseek-v3-2-251201",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.4
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3.2-thinking",
+    "model_group": "volcengine-deepseek-v3.2-thinking",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.4
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3.2-thinking",
+    "model_group": "deepseek-v3.2-thinking",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.4
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-1.5-lite",
+    "model_group": "volcengine-doubao-1.5-lite",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.3,
+      "output_per_1m": 0.6,
+      "cache_read_per_1m": 0.06,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-1-5-lite"
+    ],
+    "note": "裸名条目 (doubao-1-5-*): 32k/256k 变体单价相同, 补录避免上下文后缀 miss, 2026-08-20"
+  },
+  {
+    "model_name": "doubao-1.5-lite",
+    "model_group": "volcengine-doubao-1.5-lite",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.3,
+      "output_per_1m": 0.6,
+      "cache_read_per_1m": 0.06,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-1-5-lite"
+    ],
+    "note": "裸名条目 (doubao-1-5-*): 32k/256k 变体单价相同, 补录避免上下文后缀 miss, 2026-08-20"
+  },
+  {
+    "model_name": "doubao-1.5-lite-32k",
+    "model_group": "volcengine-doubao-1.5-lite-32k",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.3,
+      "output_per_1m": 0.6,
+      "cache_read_per_1m": 0.06,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-1.5-lite-32k",
+    "model_group": "doubao-1.5-lite-32k",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.3,
+      "output_per_1m": 0.6,
+      "cache_read_per_1m": 0.06,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-1.5-pro",
+    "model_group": "volcengine-doubao-1.5-pro",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.8,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.16,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-1-5-pro"
+    ],
+    "note": "裸名条目 (doubao-1-5-*): 32k/256k 变体单价相同, 补录避免上下文后缀 miss, 2026-08-20"
+  },
+  {
+    "model_name": "doubao-1.5-pro",
+    "model_group": "volcengine-doubao-1.5-pro",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.8,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.16,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-1-5-pro"
+    ],
+    "note": "裸名条目 (doubao-1-5-*): 32k/256k 变体单价相同, 补录避免上下文后缀 miss, 2026-08-20"
+  },
+  {
+    "model_name": "doubao-1.5-pro-256k",
+    "model_group": "volcengine-doubao-1.5-pro-256k",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.8,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.16,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-1.5-pro-256k",
+    "model_group": "doubao-1.5-pro-256k",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.8,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.16,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-1.5-pro-32k",
+    "model_group": "volcengine-doubao-1.5-pro-32k",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.8,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.16,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-1.5-pro-32k",
+    "model_group": "doubao-1.5-pro-32k",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.8,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.16,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-1.5-thinking-vision-pro",
+    "model_group": "volcengine-doubao-1.5-thinking-vision-pro",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 3.0,
+      "output_per_1m": 9.0
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-1.5-thinking-vision-pro",
+    "model_group": "doubao-1.5-thinking-vision-pro",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 3.0,
+      "output_per_1m": 9.0
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-1.5-vision-pro",
+    "model_group": "volcengine-doubao-1.5-vision-pro",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 3.0,
+      "output_per_1m": 9.0
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-1-5-vision-pro"
+    ],
+    "note": "裸名条目 (doubao-1-5-*): 32k/256k 变体单价相同, 补录避免上下文后缀 miss, 2026-08-20"
+  },
+  {
+    "model_name": "doubao-1.5-vision-pro",
+    "model_group": "volcengine-doubao-1.5-vision-pro",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 3.0,
+      "output_per_1m": 9.0
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-1-5-vision-pro"
+    ],
+    "note": "裸名条目 (doubao-1-5-*): 32k/256k 变体单价相同, 补录避免上下文后缀 miss, 2026-08-20"
+  },
+  {
+    "model_name": "doubao-1.5-vision-pro-32k",
+    "model_group": "volcengine-doubao-1.5-vision-pro-32k",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 3.0,
+      "output_per_1m": 9.0
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-1.5-vision-pro-32k",
+    "model_group": "doubao-1.5-vision-pro-32k",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 3.0,
+      "output_per_1m": 9.0
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-lite-4k",
+    "model_group": "volcengine-doubao-lite-4k",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.3,
+      "output_per_1m": 0.6,
+      "cache_read_per_1m": 0.06,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-lite-4k",
+    "model_group": "doubao-lite-4k",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.3,
+      "output_per_1m": 0.6,
+      "cache_read_per_1m": 0.06,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-seed-1.6",
+    "model_group": "volcengine-doubao-seed-1.6",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "combo_tiers": [
+        {
+          "input_up_to_k": 32,
+          "output_up_to_k": 0.2,
+          "input_price_per_1m": 0.8,
+          "output_price_per_1m": 2,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 32,
+          "output_up_to_k": null,
+          "input_price_per_1m": 0.8,
+          "output_price_per_1m": 8,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 128,
+          "output_up_to_k": null,
+          "input_price_per_1m": 1.2,
+          "output_price_per_1m": 16,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 256,
+          "output_up_to_k": null,
+          "input_price_per_1m": 2.4,
+          "output_price_per_1m": 24,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": null,
+          "output_up_to_k": null,
+          "input_price_per_1m": 8,
+          "output_price_per_1m": 32,
+          "cache_read_price_per_1m": 0.16
+        }
+      ],
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 1.2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 0.2,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 32
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-seed-1.6",
+    "model_group": "doubao-seed-1.6",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "combo_tiers": [
+        {
+          "input_up_to_k": 32,
+          "output_up_to_k": 0.2,
+          "input_price_per_1m": 0.8,
+          "output_price_per_1m": 2,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 32,
+          "output_up_to_k": null,
+          "input_price_per_1m": 0.8,
+          "output_price_per_1m": 8,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 128,
+          "output_up_to_k": null,
+          "input_price_per_1m": 1.2,
+          "output_price_per_1m": 16,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 256,
+          "output_up_to_k": null,
+          "input_price_per_1m": 2.4,
+          "output_price_per_1m": 24,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": null,
+          "output_up_to_k": null,
+          "input_price_per_1m": 8,
+          "output_price_per_1m": 32,
+          "cache_read_price_per_1m": 0.16
+        }
+      ],
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 1.2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 0.2,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 32
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-seed-1-6-251015",
+    "model_group": "doubao-seed-1-6-251015",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "combo_tiers": [
+        {
+          "input_up_to_k": 32,
+          "output_up_to_k": 0.2,
+          "input_price_per_1m": 0.8,
+          "output_price_per_1m": 2,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 32,
+          "output_up_to_k": null,
+          "input_price_per_1m": 0.8,
+          "output_price_per_1m": 8,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 128,
+          "output_up_to_k": null,
+          "input_price_per_1m": 1.2,
+          "output_price_per_1m": 16,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 256,
+          "output_up_to_k": null,
+          "input_price_per_1m": 2.4,
+          "output_price_per_1m": 24,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": null,
+          "output_up_to_k": null,
+          "input_price_per_1m": 8,
+          "output_price_per_1m": 32,
+          "cache_read_price_per_1m": 0.16
+        }
+      ],
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 1.2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 0.2,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 32
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-seed-1.6-flash",
+    "model_group": "volcengine-doubao-seed-1.6-flash",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.15
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.3
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.6
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 1.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.03
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-seed-1.6-flash",
+    "model_group": "doubao-seed-1.6-flash",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.15
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.3
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.6
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 1.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.03
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-seed-1-6-flash-250615",
+    "model_group": "doubao-seed-1-6-flash-250615",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.15
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.3
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.6
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 1.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.03
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-seed-1.6-thinking",
+    "model_group": "volcengine-doubao-seed-1.6-thinking",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 1.2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 24
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 24
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.16
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-seed-1.6-thinking",
+    "model_group": "doubao-seed-1.6-thinking",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 1.2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 24
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 24
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.16
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-seed-1.6-vision",
+    "model_group": "volcengine-doubao-seed-1.6-vision",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 1.2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 8.0
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 16.0
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 24.0
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 24.0
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.16
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.017
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-seed-1-6-vision"
+    ],
+    "note": "火山方舟官方定价 docs/82379/1544106 (页面 2026-08-17 更新), 2026-08-20 补录"
+  },
+  {
+    "model_name": "doubao-seed-1.6-vision",
+    "model_group": "volcengine-doubao-seed-1.6-vision",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 1.2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 8.0
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 16.0
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 24.0
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 24.0
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.16
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.017
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-seed-1-6-vision"
+    ],
+    "note": "火山方舟官方定价 docs/82379/1544106 (页面 2026-08-17 更新), 2026-08-20 补录"
+  },
+  {
+    "model_name": "doubao-seed-1.8",
+    "model_group": "volcengine-doubao-seed-1.8",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "combo_tiers": [
+        {
+          "input_up_to_k": 32,
+          "output_up_to_k": 0.2,
+          "input_price_per_1m": 0.8,
+          "output_price_per_1m": 2.0,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 32,
+          "output_up_to_k": null,
+          "input_price_per_1m": 0.8,
+          "output_price_per_1m": 8.0,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 128,
+          "output_up_to_k": null,
+          "input_price_per_1m": 1.2,
+          "output_price_per_1m": 16.0,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 256,
+          "output_up_to_k": null,
+          "input_price_per_1m": 2.4,
+          "output_price_per_1m": 24.0,
+          "cache_read_price_per_1m": 0.16
+        }
+      ],
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 1.2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 0.2,
+          "price_per_1m": 2.0
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 24.0
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.16
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.017
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-seed-1-8"
+    ],
+    "note": "火山方舟官方定价 docs/82379/1544106 (页面 2026-08-17 更新), 2026-08-20 补录"
+  },
+  {
+    "model_name": "doubao-seed-1.8",
+    "model_group": "volcengine-doubao-seed-1.8",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "combo_tiers": [
+        {
+          "input_up_to_k": 32,
+          "output_up_to_k": 0.2,
+          "input_price_per_1m": 0.8,
+          "output_price_per_1m": 2.0,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 32,
+          "output_up_to_k": null,
+          "input_price_per_1m": 0.8,
+          "output_price_per_1m": 8.0,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 128,
+          "output_up_to_k": null,
+          "input_price_per_1m": 1.2,
+          "output_price_per_1m": 16.0,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 256,
+          "output_up_to_k": null,
+          "input_price_per_1m": 2.4,
+          "output_price_per_1m": 24.0,
+          "cache_read_price_per_1m": 0.16
+        }
+      ],
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 1.2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 0.2,
+          "price_per_1m": 2.0
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 24.0
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.16
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.017
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-seed-1-8"
+    ],
+    "note": "火山方舟官方定价 docs/82379/1544106 (页面 2026-08-17 更新), 2026-08-20 补录"
+  },
+  {
+    "model_name": "doubao-seed-2.0-lite",
+    "model_group": "volcengine-doubao-seed-2.0-lite",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.6
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.9
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 1.8
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1.8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3.6
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 5.4
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 10.8
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 10.8
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.12
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.18
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.36
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.36
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.017
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-seed-2-0-lite"
+    ],
+    "note": "火山方舟官方定价 docs/82379/1544106 (页面 2026-08-17 更新), 2026-08-20 补录"
+  },
+  {
+    "model_name": "doubao-seed-2.0-lite",
+    "model_group": "volcengine-doubao-seed-2.0-lite",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.6
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.9
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 1.8
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1.8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3.6
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 5.4
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 10.8
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 10.8
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.12
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.18
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.36
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.36
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.017
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-seed-2-0-lite"
+    ],
+    "note": "火山方舟官方定价 docs/82379/1544106 (页面 2026-08-17 更新), 2026-08-20 补录"
+  },
+  {
+    "model_name": "doubao-seed-2.0-mini",
+    "model_group": "volcengine-doubao-seed-2.0-mini",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.2
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2.0
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4.0
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 8.0
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 8.0
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.04
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.08
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.16
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.017
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-seed-2-0-mini"
+    ],
+    "note": "火山方舟官方定价 docs/82379/1544106 (页面 2026-08-17 更新), 2026-08-20 补录"
+  },
+  {
+    "model_name": "doubao-seed-2.0-mini",
+    "model_group": "volcengine-doubao-seed-2.0-mini",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.2
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2.0
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4.0
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 8.0
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 8.0
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.04
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.08
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.16
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.017
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-seed-2-0-mini"
+    ],
+    "note": "火山方舟官方定价 docs/82379/1544106 (页面 2026-08-17 更新), 2026-08-20 补录"
+  },
+  {
+    "model_name": "doubao-seed-2.0-pro",
+    "model_group": "volcengine-doubao-seed-2.0-pro",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3.2
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4.8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 9.6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 9.6
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 16.0
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 24.0
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 48.0
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 48.0
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.64
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.96
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 1.92
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1.92
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.017
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-seed-2-0-pro"
+    ],
+    "note": "火山方舟官方定价 docs/82379/1544106 (页面 2026-08-17 更新), 2026-08-20 补录"
+  },
+  {
+    "model_name": "doubao-seed-2.0-pro",
+    "model_group": "volcengine-doubao-seed-2.0-pro",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3.2
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4.8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 9.6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 9.6
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 16.0
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 24.0
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 48.0
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 48.0
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.64
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.96
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 1.92
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1.92
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.017
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-seed-2-0-pro"
+    ],
+    "note": "火山方舟官方定价 docs/82379/1544106 (页面 2026-08-17 更新), 2026-08-20 补录"
+  },
+  {
+    "model_name": "doubao-seed-2.1-pro",
+    "model_group": "volcengine-doubao-seed-2.1-pro",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 6.0,
+      "output_per_1m": 30.0,
+      "cache_read_per_1m": 1.2
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-seed-2-1-pro"
+    ],
+    "note": "火山方舟官方定价 docs/82379/1544106 (页面 2026-08-17 更新), 2026-08-20 补录"
+  },
+  {
+    "model_name": "doubao-seed-2.1-pro",
+    "model_group": "volcengine-doubao-seed-2.1-pro",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 6.0,
+      "output_per_1m": 30.0,
+      "cache_read_per_1m": 1.2
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-seed-2-1-pro"
+    ],
+    "note": "火山方舟官方定价 docs/82379/1544106 (页面 2026-08-17 更新), 2026-08-20 补录"
+  },
+  {
+    "model_name": "doubao-seed-2.1-turbo",
+    "model_group": "volcengine-doubao-seed-2.1-turbo",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 3.0,
+      "output_per_1m": 15.0,
+      "cache_read_per_1m": 0.6
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-seed-2-1-turbo"
+    ],
+    "note": "火山方舟官方定价 docs/82379/1544106 (页面 2026-08-17 更新), 2026-08-20 补录"
+  },
+  {
+    "model_name": "doubao-seed-2.1-turbo",
+    "model_group": "volcengine-doubao-seed-2.1-turbo",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 3.0,
+      "output_per_1m": 15.0,
+      "cache_read_per_1m": 0.6
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-seed-2-1-turbo"
+    ],
+    "note": "火山方舟官方定价 docs/82379/1544106 (页面 2026-08-17 更新), 2026-08-20 补录"
+  },
+  {
+    "model_name": "doubao-seed-evolving",
+    "model_group": "volcengine-doubao-seed-evolving",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 6.0,
+      "output_per_1m": 30.0,
+      "cache_read_per_1m": 1.2
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-seed-evolving"
+    ],
+    "note": "火山方舟官方定价 docs/82379/1544106 (页面 2026-08-17 更新), 2026-08-20 补录"
+  },
+  {
+    "model_name": "doubao-seed-evolving",
+    "model_group": "volcengine-doubao-seed-evolving",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 6.0,
+      "output_per_1m": 30.0,
+      "cache_read_per_1m": 1.2
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "doubao-seed-evolving"
+    ],
+    "note": "火山方舟官方定价 docs/82379/1544106 (页面 2026-08-17 更新), 2026-08-20 补录"
+  },
+  {
+    "model_name": "gemini-2.5-flash",
+    "model_group": "blueshirt-gemini-2.5-flash",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cache_read_per_1m": 0.03
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-flash",
+    "model_group": "gemini-2.5-flash",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cache_read_per_1m": 0.03
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-flash-image",
+    "model_group": "gemini-2.5-flash-image",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cache_read_per_1m": 0.03
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-flash-image",
+    "model_group": "gemini-2.5-flash-image",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cache_read_per_1m": 0.03
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-flash-preview-09-2025",
+    "model_group": "gemini-2.5-flash-preview-09-2025",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cache_read_per_1m": 0.03
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-pro",
+    "model_group": "blueshirt-gemini-2.5-pro",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 1.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.5
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 15
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-pro-exp-03-25",
+    "model_group": "gemini-2.5-pro-exp-03-25",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 1.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.5
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 15
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-pro-preview",
+    "model_group": "gemini-2.5-pro-preview",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2-5-pro-preview-03-02",
+    "model_group": "gemini-2-5-pro-preview-03-02",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2-5-pro-preview-03-25",
+    "model_group": "gemini-2-5-pro-preview-03-25",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-pro-preview-03-25",
+    "model_group": "gemini-2.5-pro-preview-03-25",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2-5-pro-preview-05-06",
+    "model_group": "gemini-2-5-pro-preview-05-06",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-pro-preview-05-06",
+    "model_group": "gemini-2.5-pro-preview-05-06",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2-5-pro-preview-06-05",
+    "model_group": "gemini-2-5-pro-preview-06-05",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-pro-preview-06-05",
+    "model_group": "gemini-2.5-pro-preview-06-05",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-pro-preview-tts",
+    "model_group": "gemini-2.5-pro-preview-tts",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-pro-thinking-1000",
+    "model_group": "gemini-2.5-pro-thinking-1000",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 1.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.5
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 15
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-3.1-pro",
+    "model_group": "gemini-3.1-pro",
+    "provider": null,
+    "model_family": "google",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 12
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 18
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.4
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": [
+      "gemini-3.1-pro-preview",
+      "gemini-3-1-pro"
+    ],
+    "note": "official Google pricing 2026-08 (ai.google.dev/gemini-api/docs/pricing); 对齐 ucloud/nulls DB 模型名"
+  },
+  {
+    "model_name": "gemini-3-flash",
+    "model_group": "gemini-3-flash",
+    "provider": null,
+    "model_family": "google",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 3,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": [
+      "gemini-3-flash-preview"
+    ],
+    "note": "official Google pricing 2026-08; text/image/video 档"
+  },
+  {
+    "model_name": "gemini-3-flash-preview",
+    "model_group": "gemini-3-flash-preview",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 3,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-3-pro-image-preview",
+    "model_group": "blueshirt-gemini-3-pro-image-preview",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 2,
+      "output_per_1m": 12
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-3-pro-image-preview",
+    "model_group": "gemini-3-pro-image-preview",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 2,
+      "output_per_1m": 12
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-3-pro-preview",
+    "model_group": "blueshirt-gemini-3-pro-preview",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 12
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 18
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-3-pro-preview-thinking",
+    "model_group": "blueshirt-gemini-3-pro-preview-thinking",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 12
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 18
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-3-pro-preview-thinking",
+    "model_group": "gemini-3-pro-preview-thinking",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 12
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 18
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "glm-4.5",
+    "model_group": "glm-4.5",
+    "provider": "zhipu",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 96,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 8
+        },
+        {
+          "up_to_k": 96,
+          "price_per_1m": 14
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 16
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": 96,
+          "price_per_1m": 0.6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.8
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "2026-08 账单核实修正(原条目3/14为错价): 2/3/4, 8/14/16, 缓存0.4/0.6/0.8"
+  },
+  {
+    "model_name": "glm-4.5",
+    "model_group": "glm-4.5",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 96,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 8
+        },
+        {
+          "up_to_k": 96,
+          "price_per_1m": 14
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 16
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": 96,
+          "price_per_1m": 0.6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.8
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "2026-08 账单核实修正(原条目3/14为错价): 2/3/4, 8/14/16, 缓存0.4/0.6/0.8"
+  },
+  {
+    "model_name": "glm-4.5-air",
+    "model_group": "glm-4.5-air",
+    "provider": "zhipu",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 1.2
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 8
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.24
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "官网二维档简化: [0,32k)取输出≥0.2k档0.8/6/0.16, [32k,128k) 1.2/8/0.24"
+  },
+  {
+    "model_name": "glm-4.5-thinking",
+    "model_group": "glm-4.5-thinking",
+    "provider": "zhipu",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 96,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 14
+        },
+        {
+          "up_to_k": 96,
+          "price_per_1m": 16
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 16
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "glm-4.5-thinking",
+    "model_group": "glm-4.5-thinking",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 96,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 14
+        },
+        {
+          "up_to_k": 96,
+          "price_per_1m": 16
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 16
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "glm-4.6",
+    "model_group": "glm-4.6",
+    "provider": "zhipu",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 2,
+      "output_per_1m": 8,
+      "cache_read_per_1m": 0.2,
+      "cache_write_per_1m": 0
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "官网已下架, 第三方价 2/8/0.2; 历史用量为订阅套餐0元"
+  },
+  {
+    "model_name": "glm-4.6v",
+    "model_group": "glm-4.6v",
+    "provider": "zhipu",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 1
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 2
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.2
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.4
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "官网+账单: [0,32k) 1/3/0.2, [32k,128k) 2/6/0.4"
+  },
+  {
+    "model_name": "glm-4.6v-flashx",
+    "model_group": "glm-4.6v-flashx",
+    "provider": "zhipu",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.15
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.3
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 1.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 3
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.03
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "官网: [0,32k) 0.15/1.5/0.03, [32k,128k) 0.3/3/0.03"
+  },
+  {
+    "model_name": "glm-4.7",
+    "model_group": "glm-4.7",
+    "provider": "zhipu",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 200,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 14
+        },
+        {
+          "up_to_k": 200,
+          "price_per_1m": 16
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.6
+        },
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.8
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "官网二维档(输入×输出长度)简化: [0,32k)取输出≥0.2k档3/14/0.6, [32k,200k) 4/16/0.8"
+  },
+  {
+    "model_name": "glm-5",
+    "model_group": "glm-5",
+    "provider": "zhipu",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 18
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 22
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 1
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1.5
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "官网+账单: [0,32k) 4/18/1, [32k+) 6/22/1.5, 缓存写入免费"
+  },
+  {
+    "model_name": "glm-5.1",
+    "model_group": "glm-5.1",
+    "provider": "zhipu",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 24
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 28
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 1.3
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "官网+账单: [0,32k) 6/24/1.3, [32k+) 8/28/2, 缓存写入免费"
+  },
+  {
+    "model_name": "glm-5.2",
+    "model_group": "glm-5.2",
+    "provider": "zhipu",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 8,
+      "output_per_1m": 28,
+      "cache_read_per_1m": 2,
+      "cache_write_per_1m": 0
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "官网+账单核实 2026-08: 8/28/2, 无分档, 缓存写入限时免费"
+  },
+  {
+    "model_name": "glm-5.3",
+    "model_group": "glm-5.3",
+    "provider": "zhipu",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 8,
+      "output_per_1m": 28,
+      "cache_read_per_1m": 2,
+      "cache_write_per_1m": 0
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "订阅套餐(GLM Coding)内实际计费0, 账单无原价; 8/28/2 为第三方价, 待官网公布后校正"
+  },
+  {
+    "model_name": "glm-5-turbo",
+    "model_group": "glm-5-turbo",
+    "provider": "zhipu",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 5
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 7
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 22
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 26
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 1.2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1.8
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "官网价; 账单全为订阅0元行, 缓存写入免费"
+  },
+  {
+    "model_name": "glm-x-k",
+    "model_group": "glm-x-k",
+    "provider": "zhipu",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 8,
+      "output_per_1m": 28,
+      "cache_read_per_1m": 2,
+      "cache_write_per_1m": 0
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "glm-x-preview-k"
+    ],
+    "note": "账单 glm-x-preview-k 同 5.2 价; DB名是 normalize 削掉 -preview 的结果"
+  },
+  {
+    "model_name": "gpt-4",
+    "model_group": "gpt-4",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4",
+    "model_group": "gpt-4",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4.1",
+    "model_group": "gpt-4.1",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4-1-2025-04-14",
+    "model_group": "gpt-4-1-2025-04-14",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4.1-mini",
+    "model_group": "gpt-4.1-mini",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.4,
+      "output_per_1m": 1.6,
+      "cache_read_per_1m": 0.1
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4.1-mini",
+    "model_group": "gpt-4.1-mini",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.4,
+      "output_per_1m": 1.6,
+      "cache_read_per_1m": 0.1
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4.1-nano",
+    "model_group": "gpt-4.1-nano",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.1,
+      "output_per_1m": 0.4,
+      "cache_read_per_1m": 0.025
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4.1-nano",
+    "model_group": "gpt-4.1-nano",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.1,
+      "output_per_1m": 0.4,
+      "cache_read_per_1m": 0.025
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4-1-nano-2025-04-14",
+    "model_group": "gpt-4-1-nano-2025-04-14",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.1,
+      "output_per_1m": 0.4,
+      "cache_read_per_1m": 0.025
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4o",
+    "model_group": "gpt-4o",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.5,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 1.25
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4o",
+    "model_group": "gpt-4o",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.5,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 1.25
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4o-mini",
+    "model_group": "gpt-4o-mini",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.15,
+      "output_per_1m": 0.6,
+      "cache_read_per_1m": 0.075
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4o-mini",
+    "model_group": "gpt-4o-mini",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.15,
+      "output_per_1m": 0.6,
+      "cache_read_per_1m": 0.075
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5",
+    "model_group": "gpt-5",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5.1",
+    "model_group": "gpt-5.1",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5.2",
+    "model_group": "gpt-5.2",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.75,
+      "output_per_1m": 14.0,
+      "cache_read_per_1m": 0.175
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5.2",
+    "model_group": "gpt-5.2",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.75,
+      "output_per_1m": 14.0,
+      "cache_read_per_1m": 0.175
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5-2025-08-07",
+    "model_group": "gpt-5-2025-08-07",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5-chat",
+    "model_group": "gpt-5-chat",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5-chat",
+    "model_group": "gpt-5-chat",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5-mini",
+    "model_group": "gpt-5-mini",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.25,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.025
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5-mini",
+    "model_group": "gpt-5-mini",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.25,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.025
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5-nano",
+    "model_group": "gpt-5-nano",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.05,
+      "output_per_1m": 0.4,
+      "cache_read_per_1m": 0.005
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5-nano",
+    "model_group": "gpt-5-nano",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.05,
+      "output_per_1m": 0.4,
+      "cache_read_per_1m": 0.005
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "grok-4",
+    "model_group": "blueshirt-grok-4",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.2,
+      "output_per_1m": 0.5,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "grok-4",
+    "model_group": "grok-4",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.2,
+      "output_per_1m": 0.5,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "grok-4.5",
+    "model_group": "grok-4.5",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 2.0
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4.0
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 6.0
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 12.0
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.3
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.6
+        }
+      ]
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "xAI 官方定价 docs.x.ai/developers/pricing (2026-08-26 核对): 输入$2/输出$6 每百万token, 缓存读 $0.30; prompt≥200k 的请求全量按第二档(翻倍)计费"
+  },
+  {
+    "model_name": "grok-4.6",
+    "model_group": "grok-4.6",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 2.0
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4.0
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 6.0
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 12.0
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.5
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1.0
+        }
+      ]
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "xAI 官方定价 docs.x.ai/developers/pricing (2026-08-26 核对): 输入$2/输出$6 每百万token, 缓存读 $0.50; prompt≥200k 的请求全量按第二档(翻倍)计费"
+  },
+  {
+    "model_name": "grok-4-fast",
+    "model_group": "grok-4-fast",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.2,
+      "output_per_1m": 0.5,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "grok-4-fast",
+    "model_group": "grok-4-fast",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.2,
+      "output_per_1m": 0.5,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "grok-4-fast-non-reasoning",
+    "model_group": "grok-4-fast-non-reasoning",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.2,
+      "output_per_1m": 0.5,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2-0711-preview",
+    "model_group": "kimi-k2-0711-preview",
+    "provider": "moonshot",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4,
+      "output_per_1m": 16,
+      "cache_read_per_1m": 1
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2-0711-preview",
+    "model_group": "kimi-k2-0711-preview",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4,
+      "output_per_1m": 16,
+      "cache_read_per_1m": 1
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2.5",
+    "model_group": "kimi-k2.5",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 21.0,
+      "cache_read_per_1m": 0.7
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2.5",
+    "model_group": "kimi-k2.5",
+    "provider": "moonshot",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 21.0,
+      "cache_read_per_1m": 0.7
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2.5",
+    "model_group": "kimi-k2.5",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 21.0,
+      "cache_read_per_1m": 0.7
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2.6",
+    "model_group": "kimi-k2.6",
+    "provider": "moonshot",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.95,
+      "output_per_1m": 4.0,
+      "cache_read_per_1m": 0.16
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "platform.kimi.ai/docs/pricing/chat-k26"
+  },
+  {
+    "model_name": "kimi-k2.7-code",
+    "model_group": "kimi-k2.7-code",
+    "provider": "moonshot",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.95,
+      "output_per_1m": 4.0,
+      "cache_read_per_1m": 0.19
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "platform.kimi.ai/docs/pricing/chat-k27-code"
+  },
+  {
+    "model_name": "kimi-k2.7-code-highspeed",
+    "model_group": "kimi-k2.7-code-highspeed",
+    "provider": "moonshot",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.9,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.38
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "platform.kimi.ai/docs/pricing/chat-k27-code (highspeed = 2x)"
+  },
+  {
+    "model_name": "kimi-k2-thinking",
+    "model_group": "kimi-k2-thinking",
+    "provider": "moonshot",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4,
+      "output_per_1m": 16,
+      "cache_read_per_1m": 1
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2-thinking",
+    "model_group": "kimi-k2-thinking",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4,
+      "output_per_1m": 16,
+      "cache_read_per_1m": 1
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2-thinking-turbo",
+    "model_group": "kimi-k2-thinking-turbo",
+    "provider": "moonshot",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 8,
+      "output_per_1m": 58,
+      "cache_read_per_1m": 1
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2-thinking-turbo",
+    "model_group": "kimi-k2-thinking-turbo",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 8,
+      "output_per_1m": 58,
+      "cache_read_per_1m": 1
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2-turbo",
+    "model_group": "kimi-k2-turbo",
+    "provider": "moonshot",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 8,
+      "output_per_1m": 58,
+      "cache_read_per_1m": 1
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2-turbo",
+    "model_group": "kimi-k2-turbo",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 8,
+      "output_per_1m": 58,
+      "cache_read_per_1m": 1
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": [
+      "kimi-k2-turbo-preview"
+    ],
+    "note": null
+  },
+  {
+    "model_name": "kimi-k3",
+    "model_group": "kimi-k3",
+    "provider": "moonshot",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 3.0,
+      "output_per_1m": 15.0,
+      "cache_read_per_1m": 0.3
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "platform.kimi.ai/docs/pricing/chat-k3"
+  },
+  {
+    "model_name": "nulls-claude-sonnet-4-20250514",
+    "model_group": "nulls-claude-sonnet-4-20250514",
+    "provider": "nulls",
+    "model_family": "anthropic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 3,
+      "output_per_1m": 15,
+      "cache_read_per_1m": 0.3,
+      "cache_write_per_1m": 3.75
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: claude-sonnet-4-20250514"
+  },
+  {
+    "model_name": "nulls-gemini-2.5-flash",
+    "model_group": "nulls-gemini-2.5-flash",
+    "provider": "nulls",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cache_read_per_1m": 0.03
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-2-5-flash"
+  },
+  {
+    "model_name": "nulls-gemini-2.5-pro",
+    "model_group": "nulls-gemini-2.5-pro",
+    "provider": "nulls",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 1.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.5
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 15
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-2-5-pro"
+  },
+  {
+    "model_name": "nulls-gemini-2.5-pro-preview-03-25",
+    "model_group": "nulls-gemini-2.5-pro-preview-03-25",
+    "provider": "nulls",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-2-5-pro-preview-03-25"
+  },
+  {
+    "model_name": "nulls-gemini-2.5-pro-preview-05-06",
+    "model_group": "nulls-gemini-2.5-pro-preview-05-06",
+    "provider": "nulls",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-2-5-pro-preview-05-06"
+  },
+  {
+    "model_name": "nulls-gemini-2.5-pro-preview-06-05",
+    "model_group": "nulls-gemini-2.5-pro-preview-06-05",
+    "provider": "nulls",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-2-5-pro-preview-06-05"
+  },
+  {
+    "model_name": "nulls-gemini-2.5-pro-thinking-1000",
+    "model_group": "nulls-gemini-2.5-pro-thinking-1000",
+    "provider": "nulls",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 1.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.5
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 15
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-2-5-pro-thinking-1000"
+  },
+  {
+    "model_name": "nulls-gemini-3-flash-preview",
+    "model_group": "nulls-gemini-3-flash-preview",
+    "provider": "nulls",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 3,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-3-flash-preview"
+  },
+  {
+    "model_name": "nulls-gpt-4o",
+    "model_group": "nulls-gpt-4o",
+    "provider": "nulls",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.5,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 1.25
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-4o"
+  },
+  {
+    "model_name": "nulls-gpt-4o-mini",
+    "model_group": "nulls-gpt-4o-mini",
+    "provider": "nulls",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.15,
+      "output_per_1m": 0.6,
+      "cache_read_per_1m": 0.075
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-4o-mini"
+  },
+  {
+    "model_name": "nulls-gpt-5",
+    "model_group": "nulls-gpt-5",
+    "provider": "nulls",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-5"
+  },
+  {
+    "model_name": "nulls-gpt-5-chat",
+    "model_group": "nulls-gpt-5-chat",
+    "provider": "nulls",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-5-chat"
+  },
+  {
+    "model_name": "nulls-gpt-5-mini",
+    "model_group": "nulls-gpt-5-mini",
+    "provider": "nulls",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.25,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.025
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-5-mini"
+  },
+  {
+    "model_name": "o3",
+    "model_group": "o3",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "o3",
+    "model_group": "o3",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "o4-mini",
+    "model_group": "o4-mini",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.1,
+      "output_per_1m": 4.4,
+      "cache_read_per_1m": 0.275
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "o4-mini",
+    "model_group": "o4-mini",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.1,
+      "output_per_1m": 4.4,
+      "cache_read_per_1m": 0.275
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "openai-gpt-4.1",
+    "model_group": "openai-gpt-4.1",
+    "provider": "openai",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-4-1"
+  },
+  {
+    "model_name": "openai-gpt-4.1-mini",
+    "model_group": "openai-gpt-4.1-mini",
+    "provider": "openai",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.4,
+      "output_per_1m": 1.6,
+      "cache_read_per_1m": 0.1
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-4-1-mini"
+  },
+  {
+    "model_name": "openai-gpt-4.1-nano",
+    "model_group": "openai-gpt-4.1-nano",
+    "provider": "openai",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.1,
+      "output_per_1m": 0.4,
+      "cache_read_per_1m": 0.025
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-4-1-nano"
+  },
+  {
+    "model_name": "openai-gpt-5",
+    "model_group": "openai-gpt-5",
+    "provider": "openai",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-5"
+  },
+  {
+    "model_name": "openai-gpt-5.1",
+    "model_group": "openai-gpt-5.1",
+    "provider": "openai",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-5-1"
+  },
+  {
+    "model_name": "openai-gpt-5.2",
+    "model_group": "openai-gpt-5.2",
+    "provider": "openai",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.75,
+      "output_per_1m": 14.0,
+      "cache_read_per_1m": 0.175
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-5-2"
+  },
+  {
+    "model_name": "openai-gpt-5-chat",
+    "model_group": "openai-gpt-5-chat",
+    "provider": "openai",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-5-chat"
+  },
+  {
+    "model_name": "openai-gpt-5-mini",
+    "model_group": "openai-gpt-5-mini",
+    "provider": "openai",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.25,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.025
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-5-mini"
+  },
+  {
+    "model_name": "openai-gpt-5-nano",
+    "model_group": "openai-gpt-5-nano",
+    "provider": "openai",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.05,
+      "output_per_1m": 0.4,
+      "cache_read_per_1m": 0.005
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-5-nano"
+  },
+  {
+    "model_name": "openrouter-gemini-2.5-flash",
+    "model_group": "openrouter-gemini-2.5-flash",
+    "provider": "openrouter",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cache_read_per_1m": 0.03
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-2-5-flash"
+  },
+  {
+    "model_name": "openrouter-gemini-2.5-pro",
+    "model_group": "openrouter-gemini-2.5-pro",
+    "provider": "openrouter",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 1.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.5
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 15
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-2-5-pro"
+  },
+  {
+    "model_name": "openrouter-gemini-3-flash-preview",
+    "model_group": "openrouter-gemini-3-flash-preview",
+    "provider": "openrouter",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 3,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-3-flash-preview"
+  },
+  {
+    "model_name": "openrouter-gemini-3-pro-preview",
+    "model_group": "openrouter-gemini-3-pro-preview",
+    "provider": "openrouter",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 12
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 18
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-3-pro-preview"
+  },
+  {
+    "model_name": "openrouter/google/gemini-3-flash-preview",
+    "model_group": "openrouter/google/gemini-3-flash-preview",
+    "provider": "openrouter",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 3,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-3-flash-preview"
+  },
+  {
+    "model_name": "openrouter-gpt-4.1",
+    "model_group": "openrouter-gpt-4.1",
+    "provider": "openrouter",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-4-1"
+  },
+  {
+    "model_name": "openrouter-gpt-5",
+    "model_group": "openrouter-gpt-5",
+    "provider": "openrouter",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-5"
+  },
+  {
+    "model_name": "openrouter-gpt-5.1",
+    "model_group": "openrouter-gpt-5.1",
+    "provider": "openrouter",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-5-1"
+  },
+  {
+    "model_name": "openrouter-gpt-5.2",
+    "model_group": "openrouter-gpt-5.2",
+    "provider": "openrouter",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.75,
+      "output_per_1m": 14.0,
+      "cache_read_per_1m": 0.175
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-5-2"
+  },
+  {
+    "model_name": "openrouter-grok-4-fast",
+    "model_group": "openrouter-grok-4-fast",
+    "provider": "openrouter",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.2,
+      "output_per_1m": 0.5,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: grok-4-fast"
+  },
+  {
+    "model_name": "openrouter-grok-4-fast-non-reasoning",
+    "model_group": "openrouter-grok-4-fast-non-reasoning",
+    "provider": "openrouter",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.2,
+      "output_per_1m": 0.5,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: grok-4-fast-non-reasoning"
+  },
+  {
+    "model_name": "openrouter/moonshotai/kimi-k2.5",
+    "model_group": "openrouter/moonshotai/kimi-k2.5",
+    "provider": "openrouter",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 21.0,
+      "cache_read_per_1m": 0.7
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: kimi-k2-5"
+  },
+  {
+    "model_name": "openrouter/openai/gpt-5.2",
+    "model_group": "openrouter/openai/gpt-5.2",
+    "provider": "openrouter",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.75,
+      "output_per_1m": 14.0,
+      "cache_read_per_1m": 0.175
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-5-2"
+  },
+  {
+    "model_name": "qwen2.5-72b-instruct",
+    "model_group": "qwen2.5-72b-instruct",
+    "provider": "ali",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 4,
+      "output_per_1m": 12
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen2.5-72b-instruct",
+    "model_group": "qwen2.5-72b-instruct",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 4,
+      "output_per_1m": 12
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen2.5-vl-72b-instruct",
+    "model_group": "qwen2.5-vl-72b-instruct",
+    "provider": "ali",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 4,
+      "output_per_1m": 12
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen2.5-vl-72b-instruct",
+    "model_group": "qwen2.5-vl-72b-instruct",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 4,
+      "output_per_1m": 12
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen3-0.6b",
+    "model_group": "qwen3-0.6b",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_thinking",
+      "currency": "元",
+      "input_per_1m": 0.3,
+      "output_per_1m": 3,
+      "thinking_per_1m": 1.2
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen3-max",
+    "model_group": "qwen3-max",
+    "provider": "ali",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 7
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 7
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 28
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 28
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 1.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1.4
+        }
+      ],
+      "cache_write_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 7
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 7
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen3-max",
+    "model_group": "qwen3-max",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 7
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 7
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 28
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 28
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 1.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1.4
+        }
+      ],
+      "cache_write_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 7
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 7
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen3-max-2026-01-23",
+    "model_group": "qwen3-max-2026-01-23",
+    "provider": "ali",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 7
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 7
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 28
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 28
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 1.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1.4
+        }
+      ],
+      "cache_write_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 7
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 7
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen-long",
+    "model_group": "qwen-long",
+    "provider": "ali",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 0.5,
+      "output_per_1m": 2
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen-long",
+    "model_group": "qwen-long",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 0.5,
+      "output_per_1m": 2
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen-plus",
+    "model_group": "qwen-plus",
+    "provider": "ali",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 4.8
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4.8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 20
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 48
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 48
+        }
+      ],
+      "thinking_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 24
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 64
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 64
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen-plus",
+    "model_group": "qwen-plus",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 4.8
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4.8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 20
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 48
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 48
+        }
+      ],
+      "thinking_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 24
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 64
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 64
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen-plus-2025-12-01",
+    "model_group": "qwen-plus-2025-12-01",
+    "provider": "ali",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 4.8
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4.8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 20
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 48
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 48
+        }
+      ],
+      "thinking_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 24
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 64
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 64
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen-plus-latest",
+    "model_group": "qwen-plus-latest",
+    "provider": "ali",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 4.8
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4.8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 20
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 48
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 48
+        }
+      ],
+      "thinking_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 24
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 64
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 64
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen-plus-latest",
+    "model_group": "qwen-plus-latest",
+    "provider": null,
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 4.8
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4.8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 20
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 48
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 48
+        }
+      ],
+      "thinking_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 24
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 64
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 64
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "road-claude-opus-4.6",
+    "model_group": "road-claude-opus-4.6",
+    "provider": "road",
+    "model_family": "anthropic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 5
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 10
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 37.5
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.5
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1
+        }
+      ],
+      "cache_write_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 6.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 12.5
+        }
+      ]
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: claude-opus-4-6"
+  },
+  {
+    "model_name": "road-gemini-2.5-flash",
+    "model_group": "road-gemini-2.5-flash",
+    "provider": "road",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cache_read_per_1m": 0.03
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-2-5-flash"
+  },
+  {
+    "model_name": "road-gemini-2.5-flash-image",
+    "model_group": "road-gemini-2.5-flash-image",
+    "provider": "road",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cache_read_per_1m": 0.03
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-2-5-flash-image"
+  },
+  {
+    "model_name": "road-gemini-2.5-pro",
+    "model_group": "road-gemini-2.5-pro",
+    "provider": "road",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 1.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.5
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 15
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-2-5-pro"
+  },
+  {
+    "model_name": "road-gemini-3-flash-preview",
+    "model_group": "road-gemini-3-flash-preview",
+    "provider": "road",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 3,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-3-flash-preview"
+  },
+  {
+    "model_name": "road-gemini-3-pro-image-preview",
+    "model_group": "road-gemini-3-pro-image-preview",
+    "provider": "road",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 2,
+      "output_per_1m": 12
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-3-pro-image-preview"
+  },
+  {
+    "model_name": "road-gemini-3-pro-preview",
+    "model_group": "road-gemini-3-pro-preview",
+    "provider": "road",
+    "model_family": "google",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 12
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 18
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gemini-3-pro-preview"
+  },
+  {
+    "model_name": "road-gpt-5",
+    "model_group": "road-gpt-5",
+    "provider": "road",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-5"
+  },
+  {
+    "model_name": "road-gpt-5.1",
+    "model_group": "road-gpt-5.1",
+    "provider": "road",
+    "model_family": "openai",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: gpt-5-1"
+  },
+  {
+    "model_name": "volcengine-deepseek-r1",
+    "model_group": "volcengine-deepseek-r1",
+    "provider": "volcengine",
+    "model_family": "deepseek",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 16.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: deepseek-r1"
+  },
+  {
+    "model_name": "volcengine-deepseek-r1-32b",
+    "model_group": "volcengine-deepseek-r1-32b",
+    "provider": "volcengine",
+    "model_family": "deepseek",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 16.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: deepseek-r1-32b"
+  },
+  {
+    "model_name": "volcengine-deepseek-v3",
+    "model_group": "volcengine-deepseek-v3",
+    "provider": "volcengine",
+    "model_family": "deepseek",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.4
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: deepseek-v3 (verified)"
+  },
+  {
+    "model_name": "volcengine-deepseek-v3.1",
+    "model_group": "volcengine-deepseek-v3.1",
+    "provider": "volcengine",
+    "model_family": "deepseek",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 12.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: deepseek-v3-1"
+  },
+  {
+    "model_name": "volcengine-deepseek-v3.1-thinking",
+    "model_group": "volcengine-deepseek-v3.1-thinking",
+    "provider": "volcengine",
+    "model_family": "deepseek",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 12.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: deepseek-v3-1-thinking"
+  },
+  {
+    "model_name": "volcengine-deepseek-v3.2",
+    "model_group": "volcengine-deepseek-v3.2",
+    "provider": "volcengine",
+    "model_family": "deepseek",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.4
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: deepseek-v3-2"
+  },
+  {
+    "model_name": "volcengine-deepseek-v3.2-thinking",
+    "model_group": "volcengine-deepseek-v3.2-thinking",
+    "provider": "volcengine",
+    "model_family": "deepseek",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.4
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: deepseek-v3-2-thinking"
+  },
+  {
+    "model_name": "volcengine-doubao-1.5-lite-32k",
+    "model_group": "volcengine-doubao-1.5-lite-32k",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.3,
+      "output_per_1m": 0.6,
+      "cache_read_per_1m": 0.06,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: doubao-1-5-lite-32k"
+  },
+  {
+    "model_name": "volcengine-doubao-1.5-pro-256k",
+    "model_group": "volcengine-doubao-1.5-pro-256k",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.8,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.16,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: doubao-1-5-pro-256k"
+  },
+  {
+    "model_name": "volcengine-doubao-1.5-pro-32k",
+    "model_group": "volcengine-doubao-1.5-pro-32k",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.8,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.16,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: doubao-1-5-pro-32k"
+  },
+  {
+    "model_name": "volcengine-doubao-1.5-thinking-vision-pro",
+    "model_group": "volcengine-doubao-1.5-thinking-vision-pro",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 3.0,
+      "output_per_1m": 9.0
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: doubao-1-5-thinking-vision-pro"
+  },
+  {
+    "model_name": "volcengine-doubao-1.5-vision-pro-32k",
+    "model_group": "volcengine-doubao-1.5-vision-pro-32k",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 3.0,
+      "output_per_1m": 9.0
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: doubao-1-5-vision-pro-32k"
+  },
+  {
+    "model_name": "volcengine-doubao-lite-4k",
+    "model_group": "volcengine-doubao-lite-4k",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.3,
+      "output_per_1m": 0.6,
+      "cache_read_per_1m": 0.06,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: doubao-lite-4k"
+  },
+  {
+    "model_name": "volcengine-doubao-seed-1.6",
+    "model_group": "volcengine-doubao-seed-1.6",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "combo_tiers": [
+        {
+          "input_up_to_k": 32,
+          "output_up_to_k": 0.2,
+          "input_price_per_1m": 0.8,
+          "output_price_per_1m": 2,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 32,
+          "output_up_to_k": null,
+          "input_price_per_1m": 0.8,
+          "output_price_per_1m": 8,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 128,
+          "output_up_to_k": null,
+          "input_price_per_1m": 1.2,
+          "output_price_per_1m": 16,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 256,
+          "output_up_to_k": null,
+          "input_price_per_1m": 2.4,
+          "output_price_per_1m": 24,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": null,
+          "output_up_to_k": null,
+          "input_price_per_1m": 8,
+          "output_price_per_1m": 32,
+          "cache_read_price_per_1m": 0.16
+        }
+      ],
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 1.2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 0.2,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 32
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: doubao-seed-1-6"
+  },
+  {
+    "model_name": "volcengine-doubao-seed-1.6-flash",
+    "model_group": "volcengine-doubao-seed-1.6-flash",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.15
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.3
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.6
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 1.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.03
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: doubao-seed-1-6-flash"
+  },
+  {
+    "model_name": "volcengine-doubao-seed-1.6-thinking",
+    "model_group": "volcengine-doubao-seed-1.6-thinking",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 1.2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 24
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 24
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.16
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": "auto-generated from model_group, maps to normalized: doubao-seed-1-6-thinking"
+  }
+]

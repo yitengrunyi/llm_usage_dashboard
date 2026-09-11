@@ -1,0 +1,2933 @@
+[
+  {
+    "model_name": "claude-opus-4-6",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 5
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 10
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 37.5
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.5
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1
+        }
+      ],
+      "cache_write_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 6.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 12.5
+        }
+      ]
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "claude-opus-4-6",
+    "provider": "road",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 5
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 10
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 37.5
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.5
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1
+        }
+      ],
+      "cache_write_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 6.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 12.5
+        }
+      ]
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "claude-sonnet-4-20250514",
+    "provider": "nulls",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 3,
+      "output_per_1m": 15,
+      "cache_read_per_1m": 0.3,
+      "cache_write_per_1m": 3.75
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "claude-sonnet-4-5",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 3,
+      "output_per_1m": 15,
+      "cache_read_per_1m": 0.3,
+      "cache_write_per_1m": 3.75
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "claude-sonnet-4-5-20250929",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 3,
+      "output_per_1m": 15,
+      "cache_read_per_1m": 0.3,
+      "cache_write_per_1m": 3.75
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-chat",
+    "provider": "deepseek",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 2.0,
+      "output_per_1m": 3.0,
+      "cache_read_per_1m": 0.2
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-r1",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 16.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-r1-32b",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 16.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-reasoner",
+    "provider": "deepseek",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 2.0,
+      "output_per_1m": 3.0,
+      "cache_read_per_1m": 0.2
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3",
+    "provider": "deepseek",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.4
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.4
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3.1",
+    "provider": "deepseek",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 12.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3.1",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 12.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3-1-250821",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 12.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3.1-thinking",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 12.0,
+      "cache_read_per_1m": 0.8
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3.2",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.4
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3-2-251201",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.4
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "deepseek-v3.2-thinking",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.4
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-1.5-lite-32k",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.3,
+      "output_per_1m": 0.6,
+      "cache_read_per_1m": 0.06,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-1.5-pro-256k",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.8,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.16,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-1.5-pro-32k",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.8,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.16,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-1.5-thinking-vision-pro",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 3.0,
+      "output_per_1m": 9.0
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-1.5-vision-pro-32k",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 3.0,
+      "output_per_1m": 9.0
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-lite-4k",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 0.3,
+      "output_per_1m": 0.6,
+      "cache_read_per_1m": 0.06,
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-seed-1.6",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "combo_tiers": [
+        {
+          "input_up_to_k": 32,
+          "output_up_to_k": 0.2,
+          "input_price_per_1m": 0.8,
+          "output_price_per_1m": 2,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 32,
+          "output_up_to_k": null,
+          "input_price_per_1m": 0.8,
+          "output_price_per_1m": 8,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 128,
+          "output_up_to_k": null,
+          "input_price_per_1m": 1.2,
+          "output_price_per_1m": 16,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 256,
+          "output_up_to_k": null,
+          "input_price_per_1m": 2.4,
+          "output_price_per_1m": 24,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": null,
+          "output_up_to_k": null,
+          "input_price_per_1m": 8,
+          "output_price_per_1m": 32,
+          "cache_read_price_per_1m": 0.16
+        }
+      ],
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 1.2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 0.2,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 32
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-seed-1-6-251015",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "combo_tiers": [
+        {
+          "input_up_to_k": 32,
+          "output_up_to_k": 0.2,
+          "input_price_per_1m": 0.8,
+          "output_price_per_1m": 2,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 32,
+          "output_up_to_k": null,
+          "input_price_per_1m": 0.8,
+          "output_price_per_1m": 8,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 128,
+          "output_up_to_k": null,
+          "input_price_per_1m": 1.2,
+          "output_price_per_1m": 16,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": 256,
+          "output_up_to_k": null,
+          "input_price_per_1m": 2.4,
+          "output_price_per_1m": 24,
+          "cache_read_price_per_1m": 0.16
+        },
+        {
+          "input_up_to_k": null,
+          "output_up_to_k": null,
+          "input_price_per_1m": 8,
+          "output_price_per_1m": 32,
+          "cache_read_price_per_1m": 0.16
+        }
+      ],
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 1.2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 0.2,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 32
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-seed-1.6-flash",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.15
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.3
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.6
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 1.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.03
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-seed-1-6-flash-250615",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.15
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.3
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.6
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 1.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 6
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 6
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.03
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.03
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "doubao-seed-1.6-thinking",
+    "provider": "volcengine",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 1.2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 8
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 24
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 24
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 0.16
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.16
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 0.17
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-flash",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cache_read_per_1m": 0.03
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-flash",
+    "provider": "nulls",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cache_read_per_1m": 0.03
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-flash",
+    "provider": "openrouter",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cache_read_per_1m": 0.03
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-flash",
+    "provider": "road",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cache_read_per_1m": 0.03
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-flash-image",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cache_read_per_1m": 0.03
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-flash-image",
+    "provider": "road",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cache_read_per_1m": 0.03
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-pro",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 1.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.5
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 15
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-pro",
+    "provider": "nulls",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 1.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.5
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 15
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-pro",
+    "provider": "openrouter",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 1.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.5
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 15
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-pro",
+    "provider": "road",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 1.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.5
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 15
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2-5-pro-preview-03-02",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2-5-pro-preview-03-25",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2-5-pro-preview-03-25",
+    "provider": "nulls",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2-5-pro-preview-05-06",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2-5-pro-preview-05-06",
+    "provider": "nulls",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2-5-pro-preview-06-05",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2-5-pro-preview-06-05",
+    "provider": "nulls",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 10
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-2.5-pro-thinking-1000",
+    "provider": "nulls",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 1.25
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 2.5
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 15
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-3-flash-preview",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 3,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-3-flash-preview",
+    "provider": "nulls",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 3,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-3-flash-preview",
+    "provider": "openrouter",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 3,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-3-flash-preview",
+    "provider": "road",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.5,
+      "output_per_1m": 3,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-3-pro-image-preview",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 2,
+      "output_per_1m": 12
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-3-pro-image-preview",
+    "provider": "road",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "USD",
+      "input_per_1m": 2,
+      "output_per_1m": 12
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-3-pro-preview",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 12
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 18
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-3-pro-preview",
+    "provider": "openrouter",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 12
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 18
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-3-pro-preview",
+    "provider": "road",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 12
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 18
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gemini-3-pro-preview-thinking",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "USD",
+      "input_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 12
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 18
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 200,
+          "price_per_1m": 0.125
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 0.25
+        }
+      ],
+      "cache_storage_per_1m_per_hour": 4.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "glm-4.5",
+    "provider": "zhipu",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 96,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 14
+        },
+        {
+          "up_to_k": 96,
+          "price_per_1m": 16
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 16
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "glm-4.5-thinking",
+    "provider": "zhipu",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 3
+        },
+        {
+          "up_to_k": 96,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 14
+        },
+        {
+          "up_to_k": 96,
+          "price_per_1m": 16
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 16
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4.1",
+    "provider": "azure",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4.1",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4.1",
+    "provider": "openai",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4.1",
+    "provider": "openrouter",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4-1-2025-04-14",
+    "provider": "azure",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4-1-2025-04-14",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4.1-mini",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.4,
+      "output_per_1m": 1.6,
+      "cache_read_per_1m": 0.1
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4.1-mini",
+    "provider": "openai",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.4,
+      "output_per_1m": 1.6,
+      "cache_read_per_1m": 0.1
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4.1-nano",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.1,
+      "output_per_1m": 0.4,
+      "cache_read_per_1m": 0.025
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4.1-nano",
+    "provider": "openai",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.1,
+      "output_per_1m": 0.4,
+      "cache_read_per_1m": 0.025
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4-1-nano-2025-04-14",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.1,
+      "output_per_1m": 0.4,
+      "cache_read_per_1m": 0.025
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4o",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.5,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 1.25
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4o",
+    "provider": "nulls",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.5,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 1.25
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4o-mini",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.15,
+      "output_per_1m": 0.6,
+      "cache_read_per_1m": 0.075
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-4o-mini",
+    "provider": "nulls",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.15,
+      "output_per_1m": 0.6,
+      "cache_read_per_1m": 0.075
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5",
+    "provider": "nulls",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5",
+    "provider": "openai",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5",
+    "provider": "openrouter",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5",
+    "provider": "road",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5.1",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5.1",
+    "provider": "openai",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5.1",
+    "provider": "openrouter",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5.1",
+    "provider": "road",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5.2",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.75,
+      "output_per_1m": 14.0,
+      "cache_read_per_1m": 0.175
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5.2",
+    "provider": "openai",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.75,
+      "output_per_1m": 14.0,
+      "cache_read_per_1m": 0.175
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5.2",
+    "provider": "openrouter",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.75,
+      "output_per_1m": 14.0,
+      "cache_read_per_1m": 0.175
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5-2025-08-07",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5-chat",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5-chat",
+    "provider": "nulls",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5-chat",
+    "provider": "openai",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10.0,
+      "cache_read_per_1m": 0.125
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5-mini",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.25,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.025
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5-mini",
+    "provider": "nulls",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.25,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.025
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5-mini",
+    "provider": "openai",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.25,
+      "output_per_1m": 2.0,
+      "cache_read_per_1m": 0.025
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5-nano",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.05,
+      "output_per_1m": 0.4,
+      "cache_read_per_1m": 0.005
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "gpt-5-nano",
+    "provider": "openai",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.05,
+      "output_per_1m": 0.4,
+      "cache_read_per_1m": 0.005
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "grok-4",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.2,
+      "output_per_1m": 0.5,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "grok-4-fast",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.2,
+      "output_per_1m": 0.5,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "grok-4-fast",
+    "provider": "openrouter",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.2,
+      "output_per_1m": 0.5,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "grok-4-fast-non-reasoning",
+    "provider": "openrouter",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.2,
+      "output_per_1m": 0.5,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "grok-4-fast:free",
+    "provider": "openrouter",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 0.2,
+      "output_per_1m": 0.5,
+      "cache_read_per_1m": 0.05
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2-0711-preview",
+    "provider": "moonshot",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4,
+      "output_per_1m": 16,
+      "cache_read_per_1m": 1
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2.5",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 21.0,
+      "cache_read_per_1m": 0.7
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2.5",
+    "provider": "moonshot",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4.0,
+      "output_per_1m": 21.0,
+      "cache_read_per_1m": 0.7
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2-thinking",
+    "provider": "moonshot",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 4,
+      "output_per_1m": 16,
+      "cache_read_per_1m": 1
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2-thinking-turbo",
+    "provider": "moonshot",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 8,
+      "output_per_1m": 58,
+      "cache_read_per_1m": 1
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "kimi-k2-turbo",
+    "provider": "moonshot",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "元",
+      "input_per_1m": 8,
+      "output_per_1m": 58,
+      "cache_read_per_1m": 1
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "o3",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 2.0,
+      "output_per_1m": 8.0,
+      "cache_read_per_1m": 0.5
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "o4-mini",
+    "provider": "blueshirt",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "with_cache",
+      "currency": "USD",
+      "input_per_1m": 1.1,
+      "output_per_1m": 4.4,
+      "cache_read_per_1m": 0.275
+    },
+    "currency": "USD",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen-long",
+    "provider": "ali",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 0.5,
+      "output_per_1m": 2
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen-plus",
+    "provider": "ali",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 4.8
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4.8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 20
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 48
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 48
+        }
+      ],
+      "thinking_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 24
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 64
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 64
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen-plus-2025-12-01",
+    "provider": "ali",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 4.8
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4.8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 20
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 48
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 48
+        }
+      ],
+      "thinking_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 24
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 64
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 64
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen-plus-latest",
+    "provider": "ali",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 2.4
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 4.8
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 4.8
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 2
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 20
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 48
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 48
+        }
+      ],
+      "thinking_tiers": [
+        {
+          "up_to_k": 128,
+          "price_per_1m": 8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 24
+        },
+        {
+          "up_to_k": 1024,
+          "price_per_1m": 64
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 64
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen2.5-72b-instruct",
+    "provider": "ali",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 4,
+      "output_per_1m": 12
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen2.5-vl-72b-instruct",
+    "provider": "ali",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "standard",
+      "currency": "元",
+      "input_per_1m": 4,
+      "output_per_1m": 12
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen3-max",
+    "provider": "ali",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 7
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 7
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 28
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 28
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 1.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1.4
+        }
+      ],
+      "cache_write_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 7
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 7
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  },
+  {
+    "model_name": "qwen3-max-2026-01-23",
+    "provider": "ali",
+    "model_family": "generic",
+    "pricing_config": {
+      "type": "advanced",
+      "currency": "元",
+      "input_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 7
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 7
+        }
+      ],
+      "output_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 10
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 16
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 28
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 28
+        }
+      ],
+      "cache_read_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 0.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 0.8
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 1.4
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 1.4
+        }
+      ],
+      "cache_write_tiers": [
+        {
+          "up_to_k": 32,
+          "price_per_1m": 2.5
+        },
+        {
+          "up_to_k": 128,
+          "price_per_1m": 4
+        },
+        {
+          "up_to_k": 256,
+          "price_per_1m": 7
+        },
+        {
+          "up_to_k": null,
+          "price_per_1m": 7
+        }
+      ]
+    },
+    "currency": "元",
+    "is_active": true,
+    "aliases": null,
+    "note": null
+  }
+]

@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+frontend/dist/
+litellm-ui-src/dist/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Misc
+*.bak
+
+# Secrets — vendor/db/openai 凭据全部走 .env, 不入库
+.env
+backend/.env
+backend/.env.bak*
+
+# 运行时缓存 + session 也不该入库
+backend/cache/*.json
+
+# 折扣配置由页面即时写入 (每家 vendor 商务价不同), 属运行时数据, 不入库
+backend/config/discounts.json
+backend/config/sessions/*
+!backend/config/sessions/.gitkeep
+backend/config/sessions.bak*
+
+# playwright MCP 测试产物
+.playwright-mcp/
+
+# Claude Code 本地配置（launch.json 可共享，settings.local.json 不入库）
+.claude/settings.local.json
+.claude/worktrees/
+
+# 对账/验证脚本的原始数据转储（大文件 + 含上游账单数据，不入库）
+backend/scripts_verify/
+
+# 网宿控制台 key 筛选配置（运行时数据、含真实网关名，同 discounts.json 不入库）
+backend/wangsu_tokens.json
+
+# 公司内部运维文档（交接/生产环境/对账报告等）— 本地保留, 不随公开仓库发布
+docs/HANDOVER.md
+docs/生产环境.md
+docs/map.md
+docs/update.md
+docs/对账报告-*.md
+docs/WANGSU_OPUS48_DROP_ISSUE.md
+API_KEY_FILTER_IMPLEMENTATION.md
+
+# 个人求职/简历材料 — 绝不入库（最好整份移出仓库目录）
+求职-*.json
+简历-*.md
+asu-resume/
+
+# IDE workspace 文件
+*.code-workspace
+
+# Local development and analysis artifacts
+.ua/
+backend.pid
+docker-compose.local.yml
+output.md
+
+# PostgreSQL 数据目录（二进制文件 + 频繁变更，不该入库）
+data/

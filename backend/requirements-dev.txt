@@ -1,0 +1,4 @@
+# 单测依赖 — 生产镜像不需要装
+# 跑法: pip install -r requirements.txt -r requirements-dev.txt && pytest backend/tests -q
+-r requirements.txt
+pytest>=8.0

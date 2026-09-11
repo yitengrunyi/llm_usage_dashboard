@@ -1,0 +1,2 @@
+# 此文件让 backend/config/sessions/ 目录本身在 git 里保留
+# session JSON 文件由 .gitignore 排除, git 完全不管, 由各服务器自己保存登录态.

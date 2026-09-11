@@ -1,0 +1,35 @@
+services:
+  backend:
+    build: ./backend
+    network_mode: host
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend/config:/app/config
+      - ./backend/data:/app/data
+      # 把 .env 文件挂进去, PUT /account 的 set_key 会直接写宿主机
+      # 文件, 容器重启后 env_file 读到的就是最新值, 不会"回滚".
+      - ./backend/.env:/app/.env
+    restart: unless-stopped
+
+  # 长跑回填脚本专用容器, 跟 backend 共用 image / .env / config
+  # 但**源码 bind-mount**, host 改了直接生效, 不用 docker cp
+  # 重启 backend 不影响这个容器里的任务
+  backfill:
+    build: ./backend
+    network_mode: host
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend:/app          # 整个 backend bind-mount, 热更新
+    command: ["tail", "-f", "/dev/null"]
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    network_mode: host
+    depends_on:
+      - backend
+    restart: unless-stopped

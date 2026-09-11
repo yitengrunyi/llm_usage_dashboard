@@ -1,0 +1,179 @@
+{
+  "_comment": "大模型系目录. 折扣配置页的两级下拉数据源, 可直接手改后重启生效 (docker 已挂 config/).",
+  "_fields": {
+    "family_id": "系的稳定 ID, 存进 discounts.json, 不要改",
+    "name": "前端展示名",
+    "prefixes": "模型名前缀. resolve_discount 用它把没单独配折扣的模型归到本系, 吃系折扣",
+    "models": "下拉候选. 不全没关系 — 下拉支持直接输入自定义, 且会自动并入 DB 里已出现过的模型"
+  },
+  "families": [
+    {
+      "family_id": "gpt",
+      "name": "gpt系",
+      "prefixes": ["gpt", "chatgpt", "o1", "o3", "o4", "text-embedding", "dall-e", "whisper", "tts", "codex"],
+      "models": [
+        "gpt-5",
+        "gpt-5-mini",
+        "gpt-5-nano",
+        "gpt-5-chat-latest",
+        "gpt-4.1",
+        "gpt-4.1-mini",
+        "gpt-4.1-nano",
+        "gpt-4o",
+        "gpt-4o-mini",
+        "gpt-4o-audio-preview",
+        "o3",
+        "o3-mini",
+        "o3-pro",
+        "o4-mini",
+        "gpt-image-1",
+        "text-embedding-3-large",
+        "text-embedding-3-small",
+        "whisper-1",
+        "tts-1"
+      ]
+    },
+    {
+      "family_id": "grok",
+      "name": "grok系",
+      "prefixes": ["grok"],
+      "models": [
+        "grok-4",
+        "grok-4-fast",
+        "grok-4-fast-reasoning",
+        "grok-4-heavy",
+        "grok-3",
+        "grok-3-mini",
+        "grok-3-fast",
+        "grok-2-vision",
+        "grok-2-image"
+      ]
+    },
+    {
+      "family_id": "gemini",
+      "name": "gemini系",
+      "prefixes": ["gemini", "imagen", "veo", "gemma", "text-bison", "chat-bison"],
+      "models": [
+        "gemini-2.5-pro",
+        "gemini-2.5-flash",
+        "gemini-2.5-flash-lite",
+        "gemini-2.0-flash",
+        "gemini-2.0-flash-lite",
+        "gemini-1.5-pro",
+        "gemini-1.5-flash",
+        "imagen-4.0-generate-001",
+        "imagen-3.0-generate-002",
+        "veo-3.0-generate-001"
+      ]
+    },
+    {
+      "family_id": "claude",
+      "name": "claude系",
+      "prefixes": ["claude", "anthropic"],
+      "models": [
+        "claude-opus-4-1",
+        "claude-opus-4",
+        "claude-sonnet-4-5",
+        "claude-sonnet-4",
+        "claude-haiku-4-5",
+        "claude-3-7-sonnet",
+        "claude-3-5-sonnet",
+        "claude-3-5-haiku",
+        "claude-3-opus",
+        "claude-3-haiku"
+      ]
+    },
+    {
+      "family_id": "deepseek",
+      "name": "deepseek系",
+      "prefixes": ["deepseek"],
+      "models": [
+        "deepseek-chat",
+        "deepseek-reasoner",
+        "deepseek-v3.1",
+        "deepseek-v3",
+        "deepseek-r1",
+        "deepseek-r1-distill-qwen-32b",
+        "deepseek-coder"
+      ]
+    },
+    {
+      "family_id": "glm",
+      "name": "glm系",
+      "prefixes": ["glm", "cogview", "cogvideo", "codegeex", "charglm", "embedding-"],
+      "models": [
+        "glm-4.5",
+        "glm-4.5-air",
+        "glm-4.5-airx",
+        "glm-4.5-flash",
+        "glm-4.5v",
+        "glm-4-plus",
+        "glm-4-air",
+        "glm-4-airx",
+        "glm-4-flash",
+        "glm-4-long",
+        "glm-4v-plus",
+        "glm-z1-air",
+        "cogview-4",
+        "cogview-3-flash",
+        "cogvideox-3"
+      ]
+    },
+    {
+      "family_id": "doubao",
+      "name": "doubao系",
+      "prefixes": ["doubao", "ep-", "seedream", "seedance", "seed-"],
+      "models": [
+        "doubao-seed-1.6",
+        "doubao-seed-1.6-flash",
+        "doubao-seed-1.6-thinking",
+        "doubao-1.5-pro-32k",
+        "doubao-1.5-pro-256k",
+        "doubao-1.5-lite-32k",
+        "doubao-1.5-vision-pro",
+        "doubao-1.5-thinking-pro",
+        "doubao-pro-32k",
+        "doubao-lite-32k",
+        "doubao-seedream-3.0-t2i",
+        "doubao-seedance-1.0-pro",
+        "doubao-embedding"
+      ]
+    },
+    {
+      "family_id": "qwen",
+      "name": "qwen系",
+      "prefixes": ["qwen", "qwq", "qvq", "tongyi", "wanx"],
+      "models": [
+        "qwen3-max",
+        "qwen3-235b-a22b",
+        "qwen3-32b",
+        "qwen3-coder-plus",
+        "qwen-max",
+        "qwen-plus",
+        "qwen-turbo",
+        "qwen-long",
+        "qwen-vl-max",
+        "qwen-vl-plus",
+        "qwen2.5-72b-instruct",
+        "qwq-32b",
+        "wanx2.1-t2i-turbo"
+      ]
+    },
+    {
+      "family_id": "kimi",
+      "name": "kimi系",
+      "prefixes": ["kimi", "moonshot"],
+      "models": [
+        "kimi-k2-0905-preview",
+        "kimi-k2-0711-preview",
+        "kimi-k2-turbo-preview",
+        "kimi-latest",
+        "kimi-thinking-preview",
+        "moonshot-v1-8k",
+        "moonshot-v1-32k",
+        "moonshot-v1-128k",
+        "moonshot-v1-auto"
+      ]
+    }
+  ]
+}

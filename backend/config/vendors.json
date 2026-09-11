@@ -1,0 +1,101 @@
+{
+  "vendors": [
+    {
+      "id": "tencent",
+      "name": "tencent",
+      "type": "tc-cloud",
+      "enabled": true,
+      "currency": "CNY",
+      "quota_per_dollar": null
+    },
+    {
+      "id": "blueshirt",
+      "name": "blueshirt",
+      "type": "new-api",
+      "enabled": true,
+      "base_url": "https://www.blueshirtmap.com",
+      "currency": "USD",
+      "quota_per_dollar": 500000
+    },
+    {
+      "id": "nulls",
+      "name": "nulls",
+      "type": "new-api-direct",
+      "enabled": true,
+      "base_url": "https://api7.xhub.chat",
+      "currency": "USD",
+      "quota_per_dollar": 500000,
+      "user_header": "New-Api-User"
+    },
+    {
+      "id": "wangsu",
+      "name": "wangsu",
+      "type": "wangsu-aigw",
+      "enabled": true,
+      "currency": "CNY",
+      "quota_per_dollar": null
+    },
+    {
+      "id": "apevon",
+      "name": "Apevon",
+      "type": "apevon",
+      "enabled": true,
+      "base_url": "https://codingflow.ai",
+      "currency": "USD",
+      "quota_per_dollar": 1000000,
+      "user_header": "New-Api-User"
+    },
+    {
+      "id": "ucloud",
+      "name": "UCloud",
+      "type": "ucloud",
+      "enabled": true,
+      "currency": "CNY"
+    },
+    {
+      "id": "road2all",
+      "name": "road2all",
+      "type": "road2all",
+      "enabled": true,
+      "base_url": "https://x.road2all.com",
+      "currency": "USD"
+    },
+    {
+      "id": "kimi",
+      "name": "kimi",
+      "type": "kimi",
+      "enabled": true,
+      "base_url": "https://platform.kimi.com",
+      "currency": "CNY"
+    },
+    {
+      "id": "volcengine",
+      "name": "volcengine",
+      "type": "volcengine",
+      "enabled": true,
+      "currency": "CNY"
+    },
+    {
+      "id": "openai",
+      "name": "openai",
+      "type": "openai",
+      "enabled": true,
+      "currency": "USD"
+    },
+    {
+      "id": "bigmodel",
+      "name": "智谱 BigModel",
+      "type": "bigmodel",
+      "enabled": true,
+      "base_url": "https://bigmodel.cn",
+      "currency": "CNY"
+    },
+    {
+      "id": "grok",
+      "name": "grok",
+      "type": "grok",
+      "enabled": true,
+      "currency": "USD"
+    }
+  ]
+}
